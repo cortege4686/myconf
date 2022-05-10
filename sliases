@@ -1,0 +1,46 @@
+# FUNC
+alias starsh='eval "$(starship init bash)"'
+alias aptup='sudo apt-get update && clear && apt list --upgradable && sudo apt upgrade'
+
+
+# SEARCH
+alias hs='history | grep '
+alias gf='sudo find / | grep '
+alias lf='find . |grep '
+alias g='grep '
+
+
+# GIT
+alias gad='git add .'
+alias gcm='git commit -m '
+alias gpo='git push origin '
+alias gs='git status'
+
+
+# EDITORS
+alias nv='nvim'
+alias vim='nvim'
+alias v='nvim'
+
+
+# OTHER
+alias ..='cd ..'
+alias _='sudo '
+alias sudo='sudo '
+alias ll='ls -lah'
+alias la='ls -a'
+alias l='ls -lh'
+
+alias py='python3'
+alias pysurs='source venv/bin/activate'
+
+# SYSD SHORT
+alias statd='systemctl status '
+alias startd='sudo systemctl start '
+alias stopd='sudo systemctl stop '
+alias restartd='sudo systemctl restart '
+alias reloadd='sudo systemctl daemon-reload'
+alias enabled='sudo systemctl enable '
+############################################
+
+
